@@ -1,0 +1,36 @@
+{
+  "name": "Assignent-2",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "dev",
+  "features": {
+    "ghcr.io/mcmastercce/bvd-103-mcmasterful-books/mcmasterful-books:latest": {},
+    "ghcr.io/mcmastercce/container-tools/gh:1": {},
+    "ghcr.io/mcmastercce/container-tools/herdr:1": {},
+    "ghcr.io/mcmastercce/container-tools/lazygit:1": {},
+    "ghcr.io/mcmastercce/container-tools/mise:1": {},
+    "ghcr.io/mcmastercce/container-tools/neovim:1": {},
+    "ghcr.io/mcmastercce/container-tools/nnn:1": {},
+    "ghcr.io/mcmastercce/container-tools/pi:1": {}
+  },
+  // node_modules is not committed, so install dependencies once the container exists.
+  "postCreateCommand": "npm install",
+  "workspaceFolder": "/workspaces",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mongodb.mongodb-vscode",
+        "humao.rest-client",
+        "rangav.vscode-thunder-client"
+      ],
+      "settings": {
+        "rest-client.previewResponseInUntitledDocument": true
+      }
+    }
+  },
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  "remoteUser": "root",
+  "containerUser": "root"
+}

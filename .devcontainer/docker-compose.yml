@@ -1,0 +1,21 @@
+services:
+  dev:
+    image: mcr.microsoft.com/devcontainers/typescript-node:4-24-bookworm
+    user: root
+    ports:
+      - "9080:9080"
+    volumes:
+      - ..:/workspaces:cached
+      # gh login survives container rebuilds
+      - gh-config:/root/.config/gh
+    environment:
+      - MONGODB_URL=mongodb://mongo:27017
+    command: sleep infinity
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d
+volumes:
+  gh-config:
