@@ -1,0 +1,58 @@
+{
+  "features": {
+    "ghcr.io/mcmastercce/bvd-103-mcmasterful-books/mcmasterful-books:latest": {
+      "version": "0.1.5",
+      "resolved": "ghcr.io/mcmastercce/bvd-103-mcmasterful-books/mcmasterful-books@sha256:a870b699f604ba56a8dac80d0501bec7063c70684ab74642201a59e0c8ed0a23",
+      "integrity": "sha256:a870b699f604ba56a8dac80d0501bec7063c70684ab74642201a59e0c8ed0a23"
+    },
+    "ghcr.io/mcmastercce/container-tools/fd:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/mcmastercce/container-tools/fd@sha256:6d6209cc6c0b15cb34021d377628cf110cb04aa1ce3b918cf3f7a46e2484ca06",
+      "integrity": "sha256:6d6209cc6c0b15cb34021d377628cf110cb04aa1ce3b918cf3f7a46e2484ca06"
+    },
+    "ghcr.io/mcmastercce/container-tools/gh:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/mcmastercce/container-tools/gh@sha256:e47288a9506658b50adf8643a12fea8cd4e7ce299d3076204cfb502e9011b745",
+      "integrity": "sha256:e47288a9506658b50adf8643a12fea8cd4e7ce299d3076204cfb502e9011b745"
+    },
+    "ghcr.io/mcmastercce/container-tools/herdr:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/mcmastercce/container-tools/herdr@sha256:899f2107e633e34fc5995f8f5665d293544ade6eedf2ac2f9dc3024c14e3de95",
+      "integrity": "sha256:899f2107e633e34fc5995f8f5665d293544ade6eedf2ac2f9dc3024c14e3de95"
+    },
+    "ghcr.io/mcmastercce/container-tools/lazygit:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/mcmastercce/container-tools/lazygit@sha256:f9d902b180737a1927cc49db316f3b53b7dc38e1ab532d73568bc14349fa2a98",
+      "integrity": "sha256:f9d902b180737a1927cc49db316f3b53b7dc38e1ab532d73568bc14349fa2a98"
+    },
+    "ghcr.io/mcmastercce/container-tools/mise:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/mcmastercce/container-tools/mise@sha256:2ebfa311fb94017da6bded747a27258bf88e119a56ca115b9750f86385edc39e",
+      "integrity": "sha256:2ebfa311fb94017da6bded747a27258bf88e119a56ca115b9750f86385edc39e"
+    },
+    "ghcr.io/mcmastercce/container-tools/neovim:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/mcmastercce/container-tools/neovim@sha256:15acc9b1d7a431e185c72136e7d3201eca0319926c37f9d3c8edead28e116dd2",
+      "integrity": "sha256:15acc9b1d7a431e185c72136e7d3201eca0319926c37f9d3c8edead28e116dd2"
+    },
+    "ghcr.io/mcmastercce/container-tools/nnn:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/mcmastercce/container-tools/nnn@sha256:0f14c351d0eea39251a7df1e89a2ad0709ca391dfb6a9e2b87f8e1b4d07aecc5",
+      "integrity": "sha256:0f14c351d0eea39251a7df1e89a2ad0709ca391dfb6a9e2b87f8e1b4d07aecc5"
+    },
+    "ghcr.io/mcmastercce/container-tools/pi:1": {
+      "version": "1.1.0",
+      "resolved": "ghcr.io/mcmastercce/container-tools/pi@sha256:bdc294e9603bdb721fc9d0b68b3f62d2fc08d2aa1e7d9a23849b6f078d8e55e5",
+      "integrity": "sha256:bdc294e9603bdb721fc9d0b68b3f62d2fc08d2aa1e7d9a23849b6f078d8e55e5",
+      "dependsOn": [
+        "ghcr.io/mcmastercce/container-tools/fd:1",
+        "ghcr.io/mcmastercce/container-tools/ripgrep:1"
+      ]
+    },
+    "ghcr.io/mcmastercce/container-tools/ripgrep:1": {
+      "version": "1.0.0",
+      "resolved": "ghcr.io/mcmastercce/container-tools/ripgrep@sha256:a1ccaeb2f86df9d82297b94b989933a351cbfe666bc81914ec9ed3473163a575",
+      "integrity": "sha256:a1ccaeb2f86df9d82297b94b989933a351cbfe666bc81914ec9ed3473163a575"
+    }
+  }
+}
